@@ -1,0 +1,67 @@
+#breadcrumb ul{
+    list-style: none;
+    padding:10px;
+    background-color:rgb(190, 220, 204);
+}
+
+#breadcrumb ul li{
+    display:inline;
+    margin-right: 5px;
+
+}
+
+.product-title{
+    text-align:center;
+    color:blue;
+}
+
+.product-image img{
+    display:block;
+    margin:0 auto;
+    max: width 100px;
+}
+
+.product-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.size-sections {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.quantity{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.quantity select {
+    padding: 5px;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight:bold;
+    text-align: center;
+}
+
+.add-to-bag {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor:pointer;
+    text-align: center;
+}
+
+.product-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.size-sections, .quantity, .price, .add-to-bag {
+    text-align: center;
+    margin-top: 10px; /* 调整顶部边距 */
+}

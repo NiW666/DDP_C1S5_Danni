@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Task 2: Add Class to Header */
+.header-class {
+    background-color: #336699; /* Task 3: Style the Header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Task 4: Create a Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Task 5: Enhance Menu Section */
+.menu-item {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+    list-style: none; /* Remove list-style (bullets) */
+}
+
+.menu-item ul {
+    list-style: none; /* Remove list-style (bullets) from the ul element inside .menu-item */
+}
+/* Task 6: Responsive Images */
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    -align: center;
+}
+
+
+/* Task 7: Style the Opening Hours Table */
+#opening-hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#opening-hours-table th, #opening-hours-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#opening-hours-table th {
+    background-color: #336699;
+    color: white;
+}
+
+/* Task 8: Add Footer Styling */
+.footer {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Task 9: Implement a CSS Grid or Flexbox Layout */
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Task 10: Hover Effects on Menu Item */
+.menu-item:hover {
+    color: #ff4500;
+}
